@@ -6,24 +6,31 @@ body {
     background-size: cover;
 }
 
-header{
-    background-color:#248030;
+header {
+    background-color: #248030;
     color: #ffffff;
     border-radius: 4px;
-    
+
 }
 
-main{
+main {
     background-color: #ffff8c;
     border-radius: 4px;
 }
 
-main > section > a{
+main>section>a {
     text-decoration: none;
     color: #248030;
-} 
+}
 
-footer{
+button {
+    background-color: #248030;
+    border: solid transparent;
+    border-radius: 4px;
+}
+
+footer {
     background-color: #ffffff;
-   
+    border-radius: 4px;
+
 }
