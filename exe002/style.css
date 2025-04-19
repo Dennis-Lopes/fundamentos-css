@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #1c1a1d;
+    border: 4px solid transparent;
+   border-radius: 4px;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 32px;
+   margin-left: 32px;
+   padding: 32px;
+   height: 250px;
+    width: 400px;
+}
+
+.selected{
+    background-color: #4b444e;
+    border: 4px solid #0088d8;
+}
+
+.hidden{
+    display: none;
+}
